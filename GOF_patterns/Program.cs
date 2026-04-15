@@ -1,5 +1,6 @@
 ﻿using System;
 using GOF_patterns.creational;
+using GOF_patterns.structural;
 
 namespace GOF_patterns
 {
@@ -8,6 +9,7 @@ namespace GOF_patterns
         static void Main()
         {
             CreationalRunner.Run();
+            StructuralRunner.Run();
         }
     }
 }
