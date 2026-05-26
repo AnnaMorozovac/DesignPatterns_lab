@@ -10,7 +10,7 @@ namespace GOF_patterns.behavioral.strategy
     {
         private IMovementStrategy _strategy;
         public string Name { get; }
-
+ 
         public HeroSt(string name, IMovementStrategy initialStrategy)
         {
             Name = name;

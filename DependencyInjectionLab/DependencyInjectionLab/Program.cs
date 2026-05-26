@@ -13,6 +13,7 @@ class Program
         services.AddTransient<MonsterSpawner>();
         services.AddTransient<ArenaEnvironment>();
 
+        services.AddTransient<FearVisualizer>();
         services.AddTransient<SurvivalGameLoop>();
         services.AddTransient<DeathmatchGameLoop>();
         services.AddTransient<NightmareGenerator>();

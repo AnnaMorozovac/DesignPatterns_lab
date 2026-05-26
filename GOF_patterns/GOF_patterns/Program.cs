@@ -15,12 +15,12 @@ namespace GOF_patterns
         {
             //CreationalRunner.Run();
             //StructuralRunner.Run();
-            //BehavioralRunner.Run();
+            BehavioralRunner.Run();
 
-            DecoratorRunner.Run();
-            FactoryMethodRunner.Run();
-            StrategyRunner.Run();
-            ExecuteAroundRunner.Run();
+            //DecoratorRunner.Run();
+            //FactoryMethodRunner.Run();
+            //StrategyRunner.Run();
+            //ExecuteAroundRunner.Run();
         }
     }
 }

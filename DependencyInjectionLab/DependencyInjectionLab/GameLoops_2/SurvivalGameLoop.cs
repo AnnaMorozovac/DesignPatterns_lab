@@ -26,7 +26,7 @@ namespace DependencyInjectionLab.GameLoops_2
 
             Console.WriteLine("[SYSTEM] Your task is to survive 3 time cycles in hiding.");
 
-            for (int i = 1; i < 3; i++)
+            for (int i = 1; i <= 3; i++)
             {
                 Console.WriteLine($"[Minute {i}/3]: You hear footsteps behind you...");
                 _swpawner.SpawnRegular();

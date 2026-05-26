@@ -19,7 +19,7 @@ namespace GOF_patterns.behavioral.command
 
         public void Attack()
         {
-            _hero.TakeBite(_damage);
+            _hero.TakeScratch(_damage);
         }
     }
 }

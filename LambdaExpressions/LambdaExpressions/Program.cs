@@ -36,7 +36,7 @@ public class Program
         list.Where(n => n % 2 != 0).ToList();
 
     public static double GetAverage(List<double> list) =>
-        list.Any() ? list.Average() : 0;
+        list.Any() ? list.Average(d => d) : 0;
 
     public static List<string> SortAlphabetically(List<string> list) =>
         list.OrderBy(b => b).ToList();

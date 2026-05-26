@@ -21,8 +21,8 @@ namespace GOF_patterns.behavioral
     {
         public static void Run()
         {
-            Console.WriteLine("----- HORROR ARENA SIMULATOR -----");
-            Console.WriteLine("   --- BEHAVIORAL PATTERNS ---");
+            Console.WriteLine();
+            Console.WriteLine("\n   --- BEHAVIORAL PATTERNS ---");
 
             Console.WriteLine("\n====== Chain of responsibility: damage ======");
             var handlers = new List<IDamageHandler>
